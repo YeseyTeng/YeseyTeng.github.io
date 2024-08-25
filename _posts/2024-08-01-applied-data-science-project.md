@@ -7,7 +7,12 @@ categories: ITD214
 ## Project Background
 Provide an overview of your team's project business goals and objectives and state the objective that you are working on. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+The dataset has been obtained from Kaggle and pertains to the conversion records of inquirers for course enrolment at X Education. This institution offers a diverse range of courses including Banking, Investment and Insurance, Human Resource Management, Media and Advertising, Service Excellence, Travel and Tourism, Financial Management, International Business, and others.
+
+The dataset provides a comprehensive overview of inquirers, encompassing their demographics such as city and country, occupations, online behavior (e.g., time spent on website and page views per visit), lead sources, asymmetrical information, and most importantly, their conversion status (i.e., whether they converted or not).
+
+Our primary business goals revolve around increasing the conversion rate, which are further divided into four sub-objectives.  Business Objective 1 involves analyzing the factors that influence conversion success.  Business Objective 2 aims to identify the factors that can increase the time spent on the website.  Business Objective 3 is to comprehend the strengths and weaknesses of the institution.  Lastly, Business Objective 4 focuses on analyzing the effectiveness of marketing strategies.
+
 
 ## Work Accomplished
 Document your work done to accomplish the outcome
