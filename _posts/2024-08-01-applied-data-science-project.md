@@ -20,15 +20,12 @@ Initially, we employed KNIME for a preliminary text review using the following s
   1.	CSV Reader: Loaded the review data from a CSV file.
   2.	String to Document: Converted text strings into KNIME documents.
   3.	Text Processing:
-     - Option 1: Applied  stop word filter
-    	- option 2: Applpied
-     - Option 3:
-       - Opion 4
-       - Option 5
-       
-
-       
-    	- Option 1:  Applied  more comprehensive text cleaning process
+     
+    	- option 1: Applpied stop word filter
+     
+    	- Option 31:  Applied  more comprehensive text cleaning process
+     - option 3
+     - option 3: 
      -  Option 2: Applied  more comprehensive text cleaning process
        - Option 3:  Implemented a similar process as Option 2, but included Porter stemming to reduce words to root for
     	                including punctuation removal, N-character filtering, case conversion, and stop word removal
