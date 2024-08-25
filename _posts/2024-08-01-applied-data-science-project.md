@@ -20,9 +20,9 @@ Initially, we employed KNIME for a preliminary text review using the following s
   1.	CSV Reader: Loaded the review data from a CSV file.
   2.	String to Document: Converted text strings into KNIME documents.
   3.	Text Processing:
-      o	Option 1: Applied a stop word filter to remove common words.
-      o	Option 2: Utilized a more comprehensive text cleaning process, including punctuation removal, N-character filtering,                   case conversion, and stop word removal.
-      o	Option 3: Implemented a similar process as Option 2, but also included Porter stemming to reduce words to their root                   form.
+      ### o	Option 1: Applied a stop word filter to remove common words.
+      ### o	Option 2: Utilized a more comprehensive text cleaning process, including punctuation removal, N-character                             filtering, case conversion, and stop word removal.
+      ### o	Option 3: Implemented a similar process as Option 2, but also included Porter stemming to reduce words to their                       root form.
   4.	Keygraph Keyword Extractor: Identified key terms within the processed text.
   5.	Tag Cloud: Visualized the frequency of extracted keywords.
 
