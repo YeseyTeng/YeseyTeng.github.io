@@ -27,6 +27,7 @@ Initially, we employed KNIME for a preliminary text review using the following s
   5.	Tag Cloud: Visualized the frequency of extracted keywords.
 
 Option 2, excluding stemming, was applied at the end of the process as it provided more nuanced sentiment information. Stemming was not included in the text processing to avoid potential ambiguity in keyword extraction. For example, stemming "expensive" to "expens" could lead to confusion, as it could be interpreted as either "expenses" or "expensive."
+
 ![214_Data Preparation](https://github.com/user-attachments/assets/c89f47e4-55df-4b67-934f-5fe263283eb9)
 
 
@@ -37,15 +38,15 @@ Two models were trained and compared to determine the most effective approach:
   1.	Model from Scratch: A model was trained from the dataset.
   2.	Transfer Learning with DistrilBERT: A pre-trained DistrilBERT model was fine-tuned on our dataset, leveraging its            existing knowledge."
 
-Model 1 : Model from Scratch
+### Model 1 : Model from Scratch
 By using Python, we uploaded the dataset and train the dataset.  By training the model, we split the data into an 80/20 training/testing ratio.  TF-IDF vectorization was then applied to convert the text data into numerical representation that could be understood by machine learning algorithm.  Finally, a logistic regression model was trained on the training set and evaluated on the testing set to assess its performance in classifying sentiment.
 
-Model 2 : Transfer learning with DistilBERT
+### Model 2 : Transfer learning with DistilBERT
 DistilBERT was chosen for this project due to its use as a pre-trained model with a large amount of text data, allowing it to capture rich linguistic information.  Additionally, it is a smaller and faster version of BERT, while still maintaining a significant amount of BERT's original performance and yielding comparable results. 
 
 Same steps as Model 1 were applied, with an additional step taken to ensure that all vectors are at the same size.  This step involved padding and masking.  Padding was used to ensure that all vectors are the same size and that all sentences are of the same length for efficient batch processing.  Masking was applied to ignore the padding tokens during processing, preventing the learning from artificial tokens created during the padding step.
 
-Topic Modeling
+### Topic Modeling
 To identify the key topic within positive and negative reviews, topic modeling using Latent Dirichlet Allocation (LDA) was applied to extract the top 5 topics from positive and negative text review.  The result as per below:
 
 Top 5 Positive text review
