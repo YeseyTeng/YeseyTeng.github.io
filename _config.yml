@@ -6,7 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  NYP_214_Data Science Project
+  NYP_214_Applied Data Science Project
 
 # Build settings
 
