@@ -20,9 +20,10 @@ Initially, we employed KNIME for a preliminary text review using the following s
   1.	CSV Reader: Loaded the review data from a CSV file.
   2.	String to Document: Converted text strings into KNIME documents.
   3.	Text Processing:
-      ### o	Option 1: Applied a stop word filter to remove common words.
-      ### o	Option 2: Utilized a more comprehensive text cleaning process, including punctuation removal, N-character                             filtering, case conversion, and stop word removal.
-      ### o	Option 3: Implemented a similar process as Option 2, but also included Porter stemming to reduce words to their                       root form.
+       •	Option 1:  Applied  stop word filter
+       •	Option 2:  Applied  more comprehensive text cleaning process
+    	                including punctuation removal, N-character filtering, case conversion, and stop word removal
+       •	Option 3:  Implemented a similar process as Option 2, but included Porter stemming to reduce words to root form
   4.	Keygraph Keyword Extractor: Identified key terms within the processed text.
   5.	Tag Cloud: Visualized the frequency of extracted keywords.
 
@@ -58,7 +59,7 @@ Overall, the model performed well with an 83% accuracy rate. However, negative c
 
 ![Model 1_Evaluation](https://github.com/user-attachments/assets/3240a21c-9a4b-40fe-9de4-6410574126e1)
 
-In model 1, the positive reviews are predicted accurately, however negative reviews are wrongly predicted as negative. This misclassification indicates a challenge in the model's ability to differentiate between positive and negative sentiments effectively.
+In model 1, the positive review (new text review) is predicted accurately, however negative review (new text review) is wrongly predicted as negative. This misclassification indicates a challenge in the model's ability to differentiate between positive and negative sentiments effectively.
 
 ![Model 1_Text Prediction](https://github.com/user-attachments/assets/a8864247-0ccc-4431-ad1c-f53a92c41fe1)
 
@@ -74,7 +75,7 @@ Overall, the model achieved high accuracy, precision, recall, and F1-scores, exc
 ![Model 2_Evaluation](https://github.com/user-attachments/assets/db33f971-f381-48f7-aad8-1b290be19663)
 
 
-In contrast to Model 1, Model 2 successfully predicted both positive and negative new text reviews accurately.  This suggests that Model 2 is better equipped to handle the nuances of sentiment analysis.
+In contrast to Model 1, Model 2 successfully predicted both positive and negative new text reviews accurately (same new text review as Model 1).  This suggests that Model 2 is better equipped to handle the nuances of sentiment analysis.
 
 ![Model 2_Text Prediction](https://github.com/user-attachments/assets/406b4554-b580-4e98-8dd3-415f09254441)
 
