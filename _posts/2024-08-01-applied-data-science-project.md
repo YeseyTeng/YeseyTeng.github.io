@@ -24,17 +24,11 @@ Initially, we employed KNIME for a preliminary text review using the following s
     	- Option 1: Applpied stop word filter
      
     	- Option 2:  Applied  more comprehensive text cleaning process (including punctuation removal, N-character filtering, case conversion, and stop word removal)
-
-- Option 1: Applpied stop word filter
+   
+     -  Option 3: Implemented similar process as Option 2, but included Porter stemming to reduce words to root form
      
-    	- Option 2:  Applied  more comprehensive text cleaning process (including punctuation removal, N-character filtering, case conversion, and stop word removal)
-    
-     -  Option 2: Applied  more comprehensive text cleaning process
-       - Option 3:  Implemented a similar process as Option 2, but included Porter stemming to reduce words to root for
-    	                including punctuation removal, N-character filtering, case conversion, and stop word removal
-       - Option 3: Implemented a similar process as Option 2, but included Porter stemming to reduce words to root form
-  5.	Keygraph Keyword Extractor: Identified key terms within the processed text.
-  6.	Tag Cloud: Visualized the frequency of extracted keywords.
+  4.	Keygraph Keyword Extractor: Identified key terms within the processed text.
+  5.	Tag Cloud: Visualized the frequency of extracted keywords.
 
 Option 2, excluding stemming, was applied at the end of the process as it provided more nuanced sentiment information. Stemming was not included in the text processing to avoid potential ambiguity in keyword extraction. For example, stemming "expensive" to "expens" could lead to confusion, as it could be interpreted as either "expenses" or "expensive."
 
