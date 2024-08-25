@@ -47,7 +47,7 @@ DistilBERT was chosen for this project due to its use as a pre-trained model wit
 Same steps as Model 1 were applied, with an additional step taken to ensure that all vectors are at the same size.  This step involved padding and masking.  Padding was used to ensure that all vectors are the same size and that all sentences are of the same length for efficient batch processing.  Masking was applied to ignore the padding tokens during processing, preventing the learning from artificial tokens created during the padding step.
 
 ### Topic Modeling
-To identify the key topic within positive and negative reviews, topic modeling using Latent Dirichlet Allocation (LDA) was applied to extract the top 5 topics from positive and negative text review.  The result as per below:
+To identify the key topic within positive and negative reviews, Latent Dirichlet Allocation (LDA) was applied to extract the top 5 topics from positive and negative text review.  The result as per below:
 
 Top 5 Positive text review
 ![Topic Modelling_Top 5 Positive review by LDA](https://github.com/user-attachments/assets/d17b8347-7a2c-4f5e-9131-aca1af5b1167)
@@ -56,13 +56,31 @@ Top 5 Negative text review
 ![Topic Modelling_Top 5 Negative review by LDA](https://github.com/user-attachments/assets/af1baf83-d386-49ea-aff1-498df04820d8)
 
 ### Evaluation
-
+### Model 1 : Model from Scratch
 
 
 ![Model 1_Evaluation](https://github.com/user-attachments/assets/3240a21c-9a4b-40fe-9de4-6410574126e1)
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+
+
+![Model 1_Text Prediction](https://github.com/user-attachments/assets/a8864247-0ccc-4431-ad1c-f53a92c41fe1)
+
+
+
+### Model 2 : Transfer learning with DistilBERT
+
+
+![Model 2_Evaluation](https://github.com/user-attachments/assets/db33f971-f381-48f7-aad8-1b290be19663)
+
+
+
+
+![Model 2_Text Prediction](https://github.com/user-attachments/assets/406b4554-b580-4e98-8dd3-415f09254441)
+
+
+
+
 
 ## Recommendation and Analysis
 Explain the analysis and recommendations
