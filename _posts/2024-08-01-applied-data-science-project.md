@@ -21,9 +21,13 @@ Initially, we employed KNIME for a preliminary text review using the following s
   2.	String to Document: Converted text strings into KNIME documents.
   3.	Text Processing:
      
-    	- option 1: Applpied stop word filter
+    	- Option 1: Applpied stop word filter
      
-    	- Option 31:  Applied  more comprehensive text cleaning process
+    	- Option 2:  Applied  more comprehensive text cleaning process (including punctuation removal, N-character filtering, case conversion, and stop word removal)
+     -             
+     - Option 1: Applpied stop word filter
+     
+    	- Option 2:  Applied  more comprehensive text cleaning process 
      - option 3
      - option 3: 
      -  Option 2: Applied  more comprehensive text cleaning process
