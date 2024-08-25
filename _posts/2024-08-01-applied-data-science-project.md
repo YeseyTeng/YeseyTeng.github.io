@@ -24,6 +24,10 @@ Initially, we employed KNIME for a preliminary text review using the following s
     	- Option 1: Applpied stop word filter
      
     	- Option 2:  Applied  more comprehensive text cleaning process (including punctuation removal, N-character filtering, case conversion, and stop word removal)
+
+- Option 1: Applpied stop word filter
+     
+    	- Option 2:  Applied  more comprehensive text cleaning process (including punctuation removal, N-character filtering, case conversion, and stop word removal)
     
      -  Option 2: Applied  more comprehensive text cleaning process
        - Option 3:  Implemented a similar process as Option 2, but included Porter stemming to reduce words to root for
