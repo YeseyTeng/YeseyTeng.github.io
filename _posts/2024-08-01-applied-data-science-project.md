@@ -82,7 +82,7 @@ In contrast to Model 1, Model 2 successfully predicted both positive and negativ
 ## RECOMMENDATION AND ANALYSIS
 Leveraging transfer learning, Model 2 demonstrated superior performance in predicting both positive and negative reviews, achieving a higher accuracy rate than Model 1. This highlights the effectiveness of transfer learning in enhancing the model's ability to accurately classify sentiments.  
 
-## Topic Modeling
+## Topic Modeling for further analysis
 Further identify the key topic within positive and negative reviews, Latent Dirichlet Allocation (LDA) was applied to extract the top 5 topics from positive and negative text review from model 2.  The result as per below:
 
 Top 5 Positive text review
