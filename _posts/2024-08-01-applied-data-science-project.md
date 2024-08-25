@@ -99,9 +99,22 @@ While 72.5% of text reviews are positive, the conversion rate of 38.5% is lower 
 
 
 ## AI Ethics
-Discuss the potential data science ethics issues (privacy, fairness, accuracy, accountability, transparency) in your project. 
+Few AI Ethics are concerned when workings with data science project:
+1.	Privacy:
+A public dataset from reliable website has been used for this project to ensure compliance with the data privacy laws and regulations, including GDPR (General Data Protection Regulation) and CCPA (California Consumer Privacy Act).  "To further ensure compliance with PDPA (Perosnal Data Protection Act), we verified that our dataset did not contain any personally identifiable information, such as home addresses, dates of birth, or other sensitive data.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
+2.	Fairness
+To mitigate potential bias in the dataset we selected, we ensured that the dataset does not contain any information related to sensitive attributes such as gender or race.  With excluding this sensitive data, we can avoid bias that could influence the model’s prediction and prevent the model from perpetuating bias or discrimination.
+
+3.	Accuracy
+Inaccurate predictions/analysis resulted inaccurate conclusion and lead to inadequate decision is make.  Hence, validation of accuracy and evaluation of the model performance is critical to allow users to understand the accuracy and also the limitations of the approaches applied.
+
+4.	Transparency
+Detail steps from dataset selection, data preparation, modelling until analysis and recommendations are encouraged to communicate to users are important.  With the transparency approach, this not only enhance the users understanding and clarity of data but also establish credibility and reassures users that the model's outcomes are reliable and not influenced by hidden biases or errors.
+
+5.	Accountability
+In practical, it is important to develop responsibility framework for each project to determine the person who accountability to the model applied and implementation.  This can ensure feedback from users are follow-up and also continuous improvement of the model.
+
 
 ## Source Codes and Datasets
 Upload your model files and dataset into a GitHub repo and add the link here. 
