@@ -21,7 +21,9 @@ Initially, we employed KNIME for a preliminary text review using the following s
   2.	String to Document: Converted text strings into KNIME documents.
   3.	Text Processing:
      - Option 1: Applied  stop word filter
-    	- Option 2:  Applied  more comprehensive text cleaning process
+    	- Option 1:  Applied  more comprehensive text cleaning process
+     -  Option 2: Applied  more comprehensive text cleaning process
+       - Option 3:  Implemented a similar process as Option 2, but included Porter stemming to reduce words to root for
     	                including punctuation removal, N-character filtering, case conversion, and stop word removal
        - Option 3: Implemented a similar process as Option 2, but included Porter stemming to reduce words to root form
   4.	Keygraph Keyword Extractor: Identified key terms within the processed text.
