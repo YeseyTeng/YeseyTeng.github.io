@@ -20,13 +20,9 @@ Initially, we employed KNIME for a preliminary text review using the following s
   1.	CSV Reader: Loaded the review data from a CSV file.
   2.	String to Document: Converted text strings into KNIME documents.
   3.	Text Processing:
-     
-    	- Option 1: Applpied stop word filter
-     
-    	- Option 2:  Applied  more comprehensive text cleaning process (including punctuation removal, N-character filtering, case conversion, and stop word removal)
-       
-     - option 3: Implemente similar process as Option 2, but included Porter Stemming to reduce the words to root form 
-     
+  - Option 1: Applpied stop word filter
+  - Option 2:  Applied  more comprehensive text cleaning process (including punctuation removal, N-character filtering, case conversion, and stop word removal)
+  - Option 3: Implemente similar process as Option 2, but included Porter Stemming to reduce the words to root form 
   4.	Keygraph Keyword Extractor: Identified key terms within the processed text.
   5.	Tag Cloud: Visualized the frequency of extracted keywords.
 
@@ -55,8 +51,8 @@ Same steps as Model 1 were applied, with an additional step taken to ensure that
 ### Model 1 : Model from Scratch
 The logistic regression in model 1 achieved an 82.5% accuracy on the test set.
 Regarding class-specific performance:
-    -•	True Negative Rate: 50% of negative reviews were correctly identified.
-    -•	True Positive Rate: 89% of positive reviews were correctly identified.
+-  True Negative Rate: 50% of negative reviews were correctly identified.
+-  True Positive Rate: 89% of positive reviews were correctly identified.
 
 Overall, the model performed well with an 83% accuracy rate. However, negative class prediction was much less accurate than positive, as indicated by an F1-score of 50% for the negative class.  Furthermore, the macro average F1-score was higher than the weighted average, suggesting an imbalance in performance between the positive and negative classes.
 
