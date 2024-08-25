@@ -24,6 +24,7 @@ Initially, we employed KNIME for a preliminary text review using the following s
     	- Option 1: Applpied stop word filter
      
     	- Option 2:  Applied  more comprehensive text cleaning process (including punctuation removal, N-character filtering, case conversion, and stop word removal)
+       
      - option 3: Implemente similar process as Option 2, but included Porter Stemming to reduce the words to root form 
      
   4.	Keygraph Keyword Extractor: Identified key terms within the processed text.
@@ -69,8 +70,8 @@ In model 1, the positive review (new text review) is predicted accurately, howev
 ### Model 2 : Transfer learning with DistilBERT
 The logistic regression in model 2 achieved an 93.8% accuracy on the test set.
 Regarding class-specific performance:
-    -•	True Negative Rate: 91% of negative reviews were correctly identified.
-    -•	True Positive Rate: 95% of positive reviews were correctly identified.
+-  True Negative Rate: 91% of negative reviews were correctly identified.
+-  True Positive Rate: 95% of positive reviews were correctly identified.
     
 Overall, the model achieved high accuracy, precision, recall, and F1-scores, exceeding 90% for both positive and negative classes.  This robust performance is further evidenced by the overall accuracy of 94%.  The similarity between macro and weighted averages indicates that the model effectively handled class imbalance, demonstrating its ability to perform well across both positive and negative classification.
 
